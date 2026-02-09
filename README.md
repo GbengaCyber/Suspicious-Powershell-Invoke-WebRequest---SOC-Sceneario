@@ -72,7 +72,7 @@ This resulted in a Sentinel incident titled:
 “PowerShell Suspicious Web Request”
 
 
-<img width="900" height="600" alt="image" src="https://github.com/user-attachments/assets/5b0be281-284a-4daa-8c27-dcb5288e04be" />
+<img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/5b0be281-284a-4daa-8c27-dcb5288e04be" />
 
 
 
