@@ -61,6 +61,22 @@ A Scheduled Query Rule was created in Microsoft Sentinel to detect PowerShell pr
 <img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/bc64433a-f4f2-4b2d-ad0e-fc29498a9485" />
 
 
+
+---
+
+## 🎯 Part 2: Alert & Incident Creation
+
+Once the detection rule was enabled, suspicious PowerShell activity was generated on the VM.
+This resulted in a Sentinel incident titled:
+
+“PowerShell Suspicious Web Request”
+
+
+<img width="1467" height="905" alt="image" src="https://github.com/user-attachments/assets/5b0be281-284a-4daa-8c27-dcb5288e04be" />
+
+
+
+
 ---
 ## 🎯 Investigation
 
