@@ -57,9 +57,10 @@ Detection Logic
 
 A Scheduled Query Rule was created in Microsoft Sentinel to detect PowerShell processes executing web download commands.
 
+** Sample Query **
 <img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/bc64433a-f4f2-4b2d-ad0e-fc29498a9485" />
 
-Sample KQL Query
+
 ---
 ## 🎯 Investigation
 
