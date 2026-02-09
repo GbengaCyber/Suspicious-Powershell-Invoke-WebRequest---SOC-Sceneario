@@ -31,10 +31,6 @@ PowerShell
 
 MITRE ATT&CK Framework
 
-<img width="650" height="300" alt="image" src="https://github.com/user-attachments/assets/e8c0fe64-9b9e-49d3-b776-646e87a11d84" />
-
-
-
 ---
 
 
@@ -61,7 +57,7 @@ Detection Logic
 
 A Scheduled Query Rule was created in Microsoft Sentinel to detect PowerShell processes executing web download commands.
 
-<img width="650" height="400" alt="image" src="https://github.com/user-attachments/assets/bc64433a-f4f2-4b2d-ad0e-fc29498a9485" />
+<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/bc64433a-f4f2-4b2d-ad0e-fc29498a9485" />
 
 Sample KQL Query
 ---
