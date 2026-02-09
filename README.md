@@ -70,6 +70,7 @@ Once the detection rule was enabled, suspicious PowerShell activity was generate
 This resulted in a Sentinel incident titled:
 
 “PowerShell Suspicious Web Request”
+<img width="842" height="468" alt="image" src="https://github.com/user-attachments/assets/86b36fba-7284-4f11-b573-d0daba6a3186" />
 
 
 <img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/5b0be281-284a-4daa-8c27-dcb5288e04be" />
