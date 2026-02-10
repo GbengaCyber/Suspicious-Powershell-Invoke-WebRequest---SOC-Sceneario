@@ -65,11 +65,6 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 - I Observe the incident and assign it to myself, set the status to Active.
 - Investigate the Incident by Actions → Investigate (sometimes takes time for entities to appear)
 
-- #### Entities (3)
- - Device: soclab1
- - User: soclab1
- - "powershell.exe" -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/joshmadakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/     eicar.ps1 -OutFile C:\programdata\eicar.ps1
-
 
 <img width="900" height="294" alt="image" src="https://github.com/user-attachments/assets/fa391f13-37ba-4a6c-8d8a-f6802d75be4f" />
 
@@ -80,6 +75,12 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 ** Notes: For the lab, let’s pretend like I contacted the user and they said they recently installed a free software at the same time the events took place. (But the reality is in this        case, the attack simulator downloaded the scripts and executed them.
 
 ** Investigation evidence: ** 
+
+- #### Entities (3)
+ - Device: soclab1
+ - User: soclab1
+ - "powershell.exe" -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/joshmadakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/     eicar.ps1 -OutFile C:\programdata\eicar.ps1
+
 
 <img width="850" height="350" alt="image" src="https://github.com/user-attachments/assets/6e68b4ec-a2f0-4cf4-8b81-b497c58165e0" />
 
