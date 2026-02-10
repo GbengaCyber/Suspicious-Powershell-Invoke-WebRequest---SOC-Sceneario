@@ -50,18 +50,14 @@
 
 ## 🎯 Part 2: Alert & Incident Creation
 
-Once the detection rule was enabled, suspicious PowerShell activity was generated on the VM.
-This resulted in a Sentinel incident titled:
-
-“PowerShell Suspicious Web Request”
+Once the detection rule is enabled, suspicious PowerShell activity was generated on the VM.
+This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Request”
 
 
-<img width="650" height="350" alt="image" src="https://github.com/user-attachments/assets/5b0be281-284a-4daa-8c27-dcb5288e04be" />
-
-
-
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/5b0be281-284a-4daa-8c27-dcb5288e04be" />
 
 ---
+
 ## 🎯 Detection & Analysis
 
 
