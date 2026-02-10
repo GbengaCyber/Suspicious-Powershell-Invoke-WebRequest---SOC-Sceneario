@@ -88,15 +88,15 @@ This resulted in a Sentinel incident titled:
 
 <img width="900" height="294" alt="image" src="https://github.com/user-attachments/assets/fa391f13-37ba-4a6c-8d8a-f6802d75be4f" />
 
- ** Gather relevant evidence and assess impact **
-- In this case the actual script files would be evidence, but are not necessarily the threat. The threat would be how they got there in the first place, or why the user (or system account) is downloading them and executing them.
-- In real life, this could have happened from accidentally downloading malware or installing a game or free software or any number of ways.
+** Gather relevant evidence and assess impact **
+  - In this case the actual script files would be evidence, but are not necessarily the threat. The threat would be how they got there in the first place, or why the user (or system account) is downloading them and executing them.
+  - In real life, this could have happened from accidentally downloading malware or installing a game or free software or any number of ways.
   
-** Notes: For the lab, let’s pretend like I contacted the user and they said they recently installed a free software at the same time the events took place. (But the reality is in this case, the attack simulator downloaded the scripts and executed them.)
+** Notes: For the lab, let’s pretend like I contacted the user and they said they recently installed a free software at the same time the events took place. (But the reality is in this               case, the attack simulator downloaded the scripts and executed them.
 
 ** Investigation evidence: ** 
 
-<img width="760" height="169" alt="image" src="https://github.com/user-attachments/assets/14348d70-cffd-4c4f-b2f8-9ef60acb7211" />
+<img width="850" height="350" alt="image" src="https://github.com/user-attachments/assets/6e68b4ec-a2f0-4cf4-8b81-b497c58165e0" />
 
 
 ** - Findings
