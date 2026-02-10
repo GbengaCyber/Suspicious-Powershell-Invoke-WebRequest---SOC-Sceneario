@@ -85,7 +85,7 @@ This resulted in a Sentinel incident titled:
 ** - Findings
 
 The incident was triggered on one device  "Soclab" by one user account "Soclab1"
-PowerShell was used to download malicious script "eicar.ps1" from external URLs: https://raw.githubusercontent.com/joshmadakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/eicar.ps1
+PowerShell was used to download malicious script "eicar.ps1" from external URLs: https://raw.githubusercontent{.}com/joshmadakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/eicar{.}ps1
 
 
 ---
