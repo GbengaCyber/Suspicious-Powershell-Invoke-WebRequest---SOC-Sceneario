@@ -66,7 +66,7 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 - Investigate the Incident by Actions → Investigate (sometimes takes time for entities to appear)
 
 
-<img width="900" height="294" alt="image" src="https://github.com/user-attachments/assets/fa391f13-37ba-4a6c-8d8a-f6802d75be4f" />
+<img width="900" height="300" alt="image" src="https://github.com/user-attachments/assets/2f70f206-ea85-46b9-a449-08337c583431" />
 
 #### ** Gather relevant evidence and assess impact **
   - In this case the actual script files would be evidence, but are not necessarily the threat. The threat would be how they got there in the first place, or why the user (or system            account) is downloading them and executing them.
