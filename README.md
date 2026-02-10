@@ -81,9 +81,12 @@ This resulted in a Sentinel incident titled:
 ---
 ## 🎯 Detection & Analysis
 
+
 ** Identify and validate the incident **
 - I Observe the incident and assign it to myself, set the status to Active.
 - Investigate the Incident by Actions → Investigate (sometimes takes time for entities to appear)
+
+<img width="900" height="294" alt="image" src="https://github.com/user-attachments/assets/fa391f13-37ba-4a6c-8d8a-f6802d75be4f" />
 
  ** Gather relevant evidence and assess impact **
 - In this case the actual script files would be evidence, but are not necessarily the threat. The threat would be how they got there in the first place, or why the user (or system account) is downloading them and executing them.
@@ -93,7 +96,7 @@ This resulted in a Sentinel incident titled:
 
 ** Investigation evidence: ** 
 
-<img width="1194" height="294" alt="image" src="https://github.com/user-attachments/assets/fa391f13-37ba-4a6c-8d8a-f6802d75be4f" />
+<img width="760" height="169" alt="image" src="https://github.com/user-attachments/assets/14348d70-cffd-4c4f-b2f8-9ef60acb7211" />
 
 
 ** - Findings
