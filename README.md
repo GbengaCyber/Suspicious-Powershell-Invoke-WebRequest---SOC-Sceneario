@@ -116,6 +116,10 @@ PowerShell was used to download malicious script "eicar.ps1" from external URLs:
 - Affected machine was isolated in Microsoft Defender for Endpoint
 - Network communication restricted
 
+
+  <img width="750" height="330" alt="image" src="https://github.com/user-attachments/assets/a0382c46-0950-46f5-8103-e620a8d685cf" />
+
+
 ### Eradication
 
 - Anti-malware scan initiated from MDE
