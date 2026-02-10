@@ -20,7 +20,6 @@
 
 ---
 
-
 ## 🎯 Threat Scenario Overview
 
 - During post-exploitation activity, an attacker may use PowerShell commands such as Invoke-WebRequest to download scripts or binaries directly from external servers. These scripts may be    executed immediately or staged for later use.
@@ -36,10 +35,11 @@
 
 ## 🎯 Part 1: Detection – Sentinel Analytic Rule
 - Detection Logic
-
 - A Scheduled Query Rule was created in Microsoft Sentinel to detect PowerShell processes executing web download commands.
 
+
 ** Sample Query **
+
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/3f7a8b70-18e7-4a11-96a7-141ab7dab448" />
 
 ---
@@ -50,6 +50,7 @@ Once the detection rule was enabled, suspicious PowerShell activity was generate
 This resulted in a Sentinel incident titled:
 
 “PowerShell Suspicious Web Request”
+
 <img width="842" height="468" alt="image" src="https://github.com/user-attachments/assets/86b36fba-7284-4f11-b573-d0daba6a3186" />
 
 
