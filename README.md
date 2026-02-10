@@ -1,20 +1,14 @@
-# PowerShell Suspicious Web Request Detection & Incident Response
-Suspicious Invoke-WebRequest
-
-# 🛡️ SOC Brute Force Detection – Microsoft Defender & Sentinel
+# 🛡️ PowerShell Suspicious Web Request Detection & Incident Response
+## Suspicious Invoke-WebRequest
 
 
-## Objective
-Threat actors who gain access to a system often leverage built-in tools such as PowerShell to download additional payloads from the internet. This technique allows attackers to blend into legitimate administrative activity while expanding control, establishing persistence, or communicating with command-and-control (C2) infrastructure.
-
-The objective of this project was to:
-
-Detect suspicious PowerShell web requests using Microsoft Sentinel
-
-Trigger and investigate an incident generated from this behavior
-
+## 🛡️ Objective
+- Threat actors who gain access to a system often leverage built-in tools such as PowerShell to download additional payloads from the internet. This technique allows attackers to blend into legitimate administrative activity while expanding control, establishing persistence, or communicating with command-and-control (C2) infrastructure.
+- The objective of this project was to:
+- Detect suspicious PowerShell web requests using Microsoft Sentinel
+- Trigger and investigate an incident generated from this behavior
+- 
 Respond to and close the incident following the NIST 800-61 Incident Response Lifecycle
-
 
 ---
 ## 🎯 Environment & Tools
