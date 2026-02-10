@@ -106,14 +106,33 @@ The incident was triggered on one device  "Soclab" by one user account "Soclab1"
 PowerShell was used to download __ scripts from external URLs:
 ---
 
-## 🎯 Threat Intelligence
+## 🎯 Containment, Eradication, and Recovery
 
-Source IP addresses were enriched using AbuseIPDB and confirmed to have a malicious reputation related to brute force activity.
+- Affected machine was isolated in Microsoft Defender for Endpoint
+- Network communication restricted
 
-**Threat intelligence evidence:**
+### Eradication
+- Anti-malware scan initiated from MDE
+- Downloaded scripts reviewed to determine execution status
 
 
-<img width="600" height="350" alt="Screenshot 2026-01-27 at 4 27 09 PM" src="https://github.com/user-attachments/assets/fe961f60-a078-4972-9709-1c3ef5f75aa4" />
+
+Execution Review
+
+It was observed that after download:
+
+Script ___ was executed by the ___ account
+
+Script ___ was not executed
+
+Script Analysis
+
+Script ___ was observed to _______
+
+Script ___ was observed to _______
+
+In this lab, scripts were executed by the attack simulator. In a real-world scenario, further root cause analysis would be required.
+
 
 ---
 
