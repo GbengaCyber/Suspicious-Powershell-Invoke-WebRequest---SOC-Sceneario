@@ -65,6 +65,12 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 - I Observe the incident and assign it to myself, set the status to Active.
 - Investigate the Incident by Actions → Investigate (sometimes takes time for entities to appear)
 
+- #### Entities (3)
+ - Device: soclab1
+ - User: soclab1
+ - "powershell.exe" -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/joshmadakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/     eicar.ps1 -OutFile C:\programdata\eicar.ps1
+
+
 <img width="900" height="294" alt="image" src="https://github.com/user-attachments/assets/fa391f13-37ba-4a6c-8d8a-f6802d75be4f" />
 
 ** Gather relevant evidence and assess impact **
@@ -133,28 +139,4 @@ A Microsoft Sentinel analytics rule was created to alert on brute force authenti
 
 <img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/643700b0-c3b9-466f-ba59-466049398bd1" />
 
-
----
-## 🎯 🏷️ MITRE ATT&CK Mapping
-
-MITRE ATT&CK Mapping
-- T1110 – Brute Force
-- T1110.003 – Password Spraying
-- T1078 – Valid Accounts (conditional)
----
-## 🎯 Response Actions
-
-- Block malicious IP addresses 
-- Review authentication activity for lateral movement
-- Reset or disable targeted accounts if required
-- Enforce MFA and account lockout policies
----
-
-## 🎯 Skills Demonstrated
-
-- KQL log analysis
-- SOC alert triage
-- Threat intelligence enrichment
-- MITRE ATT&CK mapping
-- Incident response decision-making
 
