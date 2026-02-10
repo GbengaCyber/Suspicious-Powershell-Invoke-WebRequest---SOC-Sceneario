@@ -113,13 +113,17 @@ Script ___ was observed to _______
 
 In this lab, scripts were executed by the attack simulator. In a real-world scenario, further root cause analysis would be required.
 
-
 ---
 
-## 🎯 Investigation Result
+## 🎯 Post-Incident Activities
 
-No successful logons were identified.
-The brute force attempt did not result in account compromise.
+- Incident notes documented in Sentinel
+- Lessons learned recorded
+
+
+#### 🎯 Recommendations identified:
+- Restrict PowerShell usage via policy
+- Enhance endpoint attack surface reduction rules
 
 ---
 ## 🎯 Sentinel Rule Configuration
