@@ -103,7 +103,9 @@ PowerShell was used to download malicious script "eicar.ps1" from external URLs:
 #### Execution Review
 
 - I checked to make sure none of the downloaded scripts were actually executed, but found out the script run successfuly.
-  ** Evidence ** 
+  
+#### ** Evidence ** 
+<img width="850" height="300" alt="image" src="https://github.com/user-attachments/assets/d850df93-b91e-4f3a-b92d-75196b54fb89" />
 
 ---
 
