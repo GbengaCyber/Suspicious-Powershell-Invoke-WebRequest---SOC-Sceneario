@@ -58,10 +58,10 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 
 ---
 
-## 🎯 Detection & Analysis
+## 🎯 Part 3: Detection & Analysis
 
 
-** Identify and validate the incident **
+#### ** Identify and validate the incident **
 - I Observe the incident and assign it to myself, set the status to Active.
 - Investigate the Incident by Actions → Investigate (sometimes takes time for entities to appear)
 
