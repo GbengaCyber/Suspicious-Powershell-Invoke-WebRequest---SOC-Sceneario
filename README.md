@@ -153,6 +153,12 @@ PowerShell was used to download malicious script "eicar.ps1" from external URLs:
 
 - Restrict PowerShell usage via policy
 - Enhance endpoint attack surface reduction rules
+- Block unsigned scripts
+- Limit admin privileges
+- Credential reset
+- Precautionary scan
+
+
 
 ---
 ## 🎯 Closure
