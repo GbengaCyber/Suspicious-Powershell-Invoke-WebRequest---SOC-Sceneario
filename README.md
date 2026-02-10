@@ -103,6 +103,8 @@ PowerShell was used to download malicious script "eicar.ps1" from external URLs:
 #### Execution Review
 
 - I checked to make sure none of the downloaded scripts were actually executed, but found out the script run successfuly.
+- In this lab, scripts were executed by the attack simulator. In a real-world scenario, further root cause analysis would be required.
+
   
 #### ** Evidence ** 
 <img width="850" height="300" alt="image" src="https://github.com/user-attachments/assets/d850df93-b91e-4f3a-b92d-75196b54fb89" />
@@ -119,26 +121,13 @@ PowerShell was used to download malicious script "eicar.ps1" from external URLs:
 - Anti-malware scan initiated from MDE
 - Downloaded scripts reviewed to determine execution status
 
+### Recovery
 
-
-Execution Review
-
-It was observed that after download:
-
-Script ___ was executed by the ___ account
-
-Script ___ was not executed
-
-Script Analysis
-
-Script ___ was observed to _______
-
-Script ___ was observed to _______
-
-In this lab, scripts were executed by the attack simulator. In a real-world scenario, further root cause analysis would be required.
-
+- No persistent malware identified
+- System restored to normal operation
+- Isolation lifted after verification
+  
 ---
-
 ## 🎯 Post-Incident Activities
 
 - Incident notes documented in Sentinel
@@ -146,15 +135,18 @@ In this lab, scripts were executed by the attack simulator. In a real-world scen
 
 
 #### 🎯 Recommendations identified:
+
 - Restrict PowerShell usage via policy
 - Enhance endpoint attack surface reduction rules
 
 ---
-## 🎯 Sentinel Rule Configuration
+## 🎯 Closure
 
-A Microsoft Sentinel analytics rule was created to alert on brute force authentication patterns.
+- Incident reviewed and validated
+- Classification: True Positive
+- Incident closed in Microsoft Sentinel
 
 
-<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/643700b0-c3b9-466f-ba59-466049398bd1" />
+
 
 
