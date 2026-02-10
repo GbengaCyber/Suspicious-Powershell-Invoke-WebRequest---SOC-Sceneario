@@ -1,60 +1,46 @@
 # 🛡️ PowerShell Suspicious Web Request Detection & Incident Response
-## Suspicious Invoke-WebRequest
 
-
+---
 ## 🛡️ Objective
 - Threat actors who gain access to a system often leverage built-in tools such as PowerShell to download additional payloads from the internet. This technique allows attackers to blend into legitimate administrative activity while expanding control, establishing persistence, or communicating with command-and-control (C2) infrastructure.
 - The objective of this project was to:
 - Detect suspicious PowerShell web requests using Microsoft Sentinel
 - Trigger and investigate an incident generated from this behavior
-- 
-Respond to and close the incident following the NIST 800-61 Incident Response Lifecycle
+- Respond to and close the incident following the NIST 800-61 Incident Response Lifecycle
+
 
 ---
 ## 🎯 Environment & Tools
-
-Azure Virtual Machine (Windows)
-
-Microsoft Defender for Endpoint (MDE)
-
-Microsoft Sentinel (SIEM)
-
-Log Analytics Workspace
-
-PowerShell
-
-MITRE ATT&CK Framework
+- Azure Virtual Machine (Windows)
+- Microsoft Defender for Endpoint (MDE)
+- Microsoft Sentinel (SIEM)
+- Log Analytics Workspace
+- PowerShell
+- MITRE ATT&CK Framework
 
 ---
 
 
 ## 🎯 Threat Scenario Overview
 
-During post-exploitation activity, an attacker may use PowerShell commands such as Invoke-WebRequest to download scripts or binaries directly from external servers. These scripts may be executed immediately or staged for later use.
+- During post-exploitation activity, an attacker may use PowerShell commands such as Invoke-WebRequest to download scripts or binaries directly from external servers. These scripts may be    executed immediately or staged for later use.
 
-This behavior is commonly associated with:
-
-Malware deployment
-
-Credential harvesting
-
-Data exfiltration
-
-C2 communication
-
-Detecting PowerShell-driven downloads is critical for identifying active compromise.
+- This behavior is commonly associated with:
+- Malware deployment
+- Credential harvesting
+- Data exfiltration
+- C2 communication
+- Detecting PowerShell-driven downloads is critical for identifying active compromise.
 
 ---
 
 ## 🎯 Part 1: Detection – Sentinel Analytic Rule
-Detection Logic
+- Detection Logic
 
-A Scheduled Query Rule was created in Microsoft Sentinel to detect PowerShell processes executing web download commands.
+- A Scheduled Query Rule was created in Microsoft Sentinel to detect PowerShell processes executing web download commands.
 
 ** Sample Query **
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/3f7a8b70-18e7-4a11-96a7-141ab7dab448" />
-
-
 
 ---
 
