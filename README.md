@@ -37,14 +37,14 @@
 
 ---
 
-## 🎯 Part 1: Detection – Sentinel Analytic Rule
+## 🎯 Part 1: Detection Rule – Sentinel Analytic Rule
 - Detection Logic
 - A Scheduled Query Rule was created in Microsoft Sentinel to detect PowerShell processes executing web download commands.
 
 
-** Sample Query **
+#### ** Sample Query **
 
-<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/603dd9a8-3e47-4830-af08-800aed343d42" />
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/f62960e7-ba1b-45c2-94f8-4bbc7fac2c18" />
 
 ---
 
