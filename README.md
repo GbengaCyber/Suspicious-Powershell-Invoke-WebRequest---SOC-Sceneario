@@ -44,7 +44,7 @@
 
 ** Sample Query **
 
-<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/3f7a8b70-18e7-4a11-96a7-141ab7dab448" />
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/603dd9a8-3e47-4830-af08-800aed343d42" />
 
 ---
 
