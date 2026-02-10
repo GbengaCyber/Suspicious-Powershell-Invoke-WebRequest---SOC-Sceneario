@@ -58,7 +58,7 @@ Detection Logic
 A Scheduled Query Rule was created in Microsoft Sentinel to detect PowerShell processes executing web download commands.
 
 ** Sample Query **
-<img width="900" height="400" alt="image" src="https://github.com/user-attachments/assets/bc64433a-f4f2-4b2d-ad0e-fc29498a9485" />
+<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/3f7a8b70-18e7-4a11-96a7-141ab7dab448" />
 
 
 
@@ -79,20 +79,19 @@ This resulted in a Sentinel incident titled:
 
 
 ---
-## 🎯 Investigation
+## 🎯 Detection & Analysis
 
-The following questions were addressed during investigation:
-- Were the source IPs internal or external?
-- Did any successful logons occur after failures?
-- Was a specific account targeted?
-  
-Authentication logs were reviewed to validate impact.
+Incident observed in Microsoft Sentinel
 
+Incident assigned to self
+
+Status changed to Active
+
+Investigation initiated via Actions → Investigate
 
 ** Investigation evidence: ** 
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/fd956234-ac46-4199-acc2-145c5b3279d2" />
-
+<img width="1194" height="294" alt="image" src="https://github.com/user-attachments/assets/fa391f13-37ba-4a6c-8d8a-f6802d75be4f" />
 
 ---
 
