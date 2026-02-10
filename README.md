@@ -79,7 +79,7 @@ This resulted in a Sentinel incident titled: “PowerShell Suspicious Web Reques
 - #### Entities (3)
  - Device: soclab1
  - User: soclab1
- - "powershell.exe" -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri https://raw.githubusercontent.com/joshmadakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/     eicar.ps1 -OutFile C:\programdata\eicar.ps1
+ - "powershell.exe" -ExecutionPolicy Bypass -Command Invoke-WebRequest -Uri https://raw.gitxxxusercontent.com/josxxxdakor1/lognpacific-public/refs/heads/main/cyber-range/entropy-gorilla/     eicar.ps1 -OutFile C:\programdata\eicar.ps1
 
 
    
