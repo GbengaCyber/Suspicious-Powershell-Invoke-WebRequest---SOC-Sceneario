@@ -81,13 +81,13 @@ This resulted in a Sentinel incident titled:
 ---
 ## 🎯 Detection & Analysis
 
-Incident observed in Microsoft Sentinel
-
-Incident assigned to self
-
-Status changed to Active
-
-Investigation initiated via Actions → Investigate
+Identify and validate the incident.
+- I Observe the incident and assign it to myself, set the status to Active.
+- Investigate the Incident by Actions → Investigate (sometimes takes time for entities to appear)
+- Gather relevant evidence and assess impact.
+- In this case the actual script files would be evidence, but are not necessarily the threat. The threat would be how they got there in the first place, or why the user (or system account) is downloading them and executing them.
+- In real life, this could have happened from accidentally downloading malware or installing a game or free software or any number of ways.
+** Notes: For the lab, let’s pretend like I contacted the user and they said they recently installed a free software at the same time the events took place. (But the reality is in this case, the attack simulator downloaded the scripts and executed them.)
 
 ** Investigation evidence: ** 
 
